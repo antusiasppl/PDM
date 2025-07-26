@@ -2,8 +2,6 @@
 import streamlit as st
 import pandas as pd
 import re
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, f1_score, classification_report
 
 # Title
 st.title("Klasifikasi Emosi dari Tweet")
