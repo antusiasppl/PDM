@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import re
-from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, f1_score, classification_report
