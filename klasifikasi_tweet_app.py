@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import re
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
 from sklearn.ensemble import RandomForestClassifier
